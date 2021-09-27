@@ -1,4 +1,4 @@
-package com.example.githubdatarepositories
+package com.gustavothirion.githubdatarepositories
 
 import org.junit.Test
 

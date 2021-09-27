@@ -7,7 +7,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.example.githubdatarepositories"
+        applicationId "com.gustavothirion.githubdatarepositories"
         minSdk 21
         targetSdk 30
         versionCode 1

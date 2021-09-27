@@ -1,10 +1,10 @@
-package com.example.githubdatarepositories.adapter
+package com.gustavothirion.githubdatarepositories.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.githubdatarepositories.R
-import com.example.githubdatarepositories.model.Item
+import com.gustavothirion.githubdatarepositories.R
+import com.gustavothirion.githubdatarepositories.model.Item
 
 class RepositoryAdapter(private val listRepositories: List<Item>) :
     RecyclerView.Adapter<RepositoryViewHolder>() {

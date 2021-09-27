@@ -1,4 +1,4 @@
-package com.example.githubdatarepositories.model
+package com.gustavothirion.githubdatarepositories.model
 
 data class Owner(
     val login: String,

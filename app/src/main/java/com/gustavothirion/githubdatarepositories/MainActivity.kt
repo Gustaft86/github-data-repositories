@@ -1,4 +1,4 @@
-package com.example.githubdatarepositories
+package com.gustavothirion.githubdatarepositories
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,11 +7,11 @@ import android.widget.ProgressBar
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.githubdatarepositories.adapter.RepositoryAdapter
-import com.example.githubdatarepositories.model.Item
-import com.example.githubdatarepositories.model.Repositories
-import com.example.githubdatarepositories.service.ApiService
-import com.example.githubdatarepositories.service.GithubService
+import com.gustavothirion.githubdatarepositories.adapter.RepositoryAdapter
+import com.gustavothirion.githubdatarepositories.model.Item
+import com.gustavothirion.githubdatarepositories.model.Repositories
+import com.gustavothirion.githubdatarepositories.service.ApiService
+import com.gustavothirion.githubdatarepositories.service.GithubService
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
