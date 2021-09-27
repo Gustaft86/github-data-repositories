@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="double_margin">16dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+</resources>
