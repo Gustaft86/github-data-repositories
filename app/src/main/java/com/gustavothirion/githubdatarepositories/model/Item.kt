@@ -1,6 +1,4 @@
-package com.example.githubdatarepositories.model
-
-import com.example.githubdatarepositories.model.Owner
+package com.gustavothirion.githubdatarepositories.model
 
 data class Item(
     val name: String,

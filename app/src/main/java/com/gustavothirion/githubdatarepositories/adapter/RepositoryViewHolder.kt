@@ -1,4 +1,4 @@
-package com.example.githubdatarepositories.adapter
+package com.gustavothirion.githubdatarepositories.adapter
 
 import android.view.View
 import android.widget.Button
@@ -6,8 +6,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.githubdatarepositories.R
-import com.example.githubdatarepositories.model.Item
+import com.gustavothirion.githubdatarepositories.R
+import com.gustavothirion.githubdatarepositories.model.Item
 import com.wajahatkarim3.easyflipview.EasyFlipView
 
 class RepositoryViewHolder(view: View) : RecyclerView.ViewHolder(view) {

@@ -1,6 +1,6 @@
-package com.example.githubdatarepositories.service
+package com.gustavothirion.githubdatarepositories.service
 
-import com.example.githubdatarepositories.model.Repositories
+import com.gustavothirion.githubdatarepositories.model.Repositories
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -1,4 +1,4 @@
-package com.example.githubdatarepositories.service
+package com.gustavothirion.githubdatarepositories.service
 
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
