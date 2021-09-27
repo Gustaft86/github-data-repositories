@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardBackgroundColor="@color/gray"
-        card_view:cardCornerRadius="12dp">
+        card_view:cardCornerRadius="@dimen/card_radius">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -22,18 +22,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginBottom="8dp"
-                android:padding="8dp">
+                android:layout_marginBottom="@dimen/margin"
+                android:padding="@dimen/padding">
 
                 <TextView
                     android:id="@+id/back_description"
                     style="@style/text_bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="@dimen/margin"
+                    android:layout_marginTop="@dimen/double_margin"
+                    android:layout_marginEnd="@dimen/margin"
+                    android:layout_marginBottom="@dimen/margin"
                     android:text="@string/description"
                     card_view:layout_constraintBottom_toTopOf="@+id/description_content"
                     card_view:layout_constraintEnd_toEndOf="parent"
@@ -47,8 +47,8 @@
                     style="@style/text_normal"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="@dimen/margin"
+                    android:layout_marginEnd="@dimen/margin"
                     card_view:layout_constraintBottom_toTopOf="@+id/back_btn"
                     card_view:layout_constraintEnd_toEndOf="parent"
                     card_view:layout_constraintHorizontal_bias="0.5"
@@ -60,8 +60,8 @@
                     android:id="@+id/back_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="@dimen/double_margin"
+                    android:layout_marginBottom="@dimen/double_margin"
                     android:backgroundTint="@color/mustard"
                     android:text="@string/back_about_it"
                     card_view:layout_constraintBottom_toBottomOf="parent"
